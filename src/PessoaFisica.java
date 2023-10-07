@@ -1,6 +1,8 @@
+import java.time.LocalDate;
+
 public class PessoaFisica extends Pessoa{
 public String cpf;
-public String dataNascimento;
+public LocalDate dataNascimento;
 public float CalcularImposto(float rendimento){
     if (rendimento <= 1500){
         return 0;
